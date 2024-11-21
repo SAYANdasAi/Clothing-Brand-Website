@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============REMIX ICON=============-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <!--=============SWIPER CSS======================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--=============CSS======================-->
+    <link rel="stylesheet" href="assests/css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--=============HEADER======================-->
+    <header class="header" id="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+91)-9999999999</span>
+                    <span>Our Location</span>
+                </div>
+                <p class="header__alert-news">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <a href="login-register.html" class="header__top-action">
+                    Login / Signup
+                    <i class="bx bx-user"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assests/img/logo.png" alt="Nav Logo" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+
+                        <a href="shop.html" class="nav__link">Shop</a>
+
+                        <a href="accounts.html" class="nav__link">My Account</a>
+
+                        <a href="compare.html" class="nav__link">Compare</a>
+
+                        <a href="login-register.html" class="nav__link">Login</a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input type="text" placeholder="Search Items" class="form__input">
+                    <button class="search__btn">
+                        <img src="./assests/img/icon-search.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-action">
+                <a href="wishlist.html" class="header__action-btn">
+                    <img src="./assests/img/icon-heart.svg" alt="">
+                    <span class="count">0</span>
+                </a>
+
+                <a href="wishlist.html" class="header__action-btn">
+                    <img src="./assests/img/icon-cart.svg" alt="">
+                    <span class="count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section--lg">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Welcome to our store</span>
+                    <span class="home__title">
+                        <h1><span>Discover Our </span><br>New Collection</h1>
+                    </span>
+                    <a href="shop.html" class="btn">Shop Now</a>
+                </div>
+                <img src="./assests/img/home__img.png" alt="">
+            </div>
+        </section>
+
+        <!--=============== CATEGORIES ===============-->
+        <section class="categories container section">
+            <h3 class="section__title"><span>Popular</span> Series</h3>
+
+            <div class="categories__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Asura Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Demigod Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Almighty Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Zodiac Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">street wear</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Anime Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Bankai Series</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="./assests/img/category-1.jpg" alt="" class="category__img">
+                        <h3 class="category__title">Menswear Series</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-button-next"><i class="ri-arrow-right-wide-line"></i></i></div>
+                <div class="swiper-button-prev"><i class="ri-arrow-left-wide-line"></i></div>
+            </div>
+        </section>
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="products container section">
+            <div class="tab__btns">
+                <span class="tab__btn active-tab">Featured</span>
+                <span class="tab__btn">New Added</span>
+                <span class="tab__btn">Popular</span>
+            </div>
+
+            <div class="tab__items">
+                <div class="tab__item">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-1-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-1-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="ri-eye-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="ri-shuffle-line"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="ri-shopping-cart-2-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-2-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-2-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-3-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-3-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-4-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-4-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-5-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-5-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-6-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-6-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-7-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-7-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-8-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-8-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-9-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-9-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-10-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-10-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-11-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-11-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+
+
+                            <div class="product__banner">
+                                <a href="./details.html" class="product__images">
+                                    <img src="./assests/img/product-12-1.jpg" alt="" class="product__img default">
+
+                                    <img src="./assests/img/product-12-2.jpg" alt="" class="product__img hover">
+                                </a>
+
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="ri-heart-add-2-line"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Comapre">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+
+
+                                </div>
+
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="./details.html">
+                                    <h3 class="product__title">Colorful Patterned shirt</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <i class="fi fi-rs-star-filled"></i>
+                                    <span>(4.9)</span>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$100</span>
+                                    <span class="old__price">$120</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+                                    <i class="fi fi-rs-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== DEALS ===============-->
+        <section class="deals"></section>
+
+        <!--=============== NEW ARRIVALS ===============-->
+        <section class="new__arrivals"></section>
+
+        <!--=============== SHOWCASE ===============-->
+        <section class="showcase"></section>
+
+        <!--=============== NEWSLETTER ===============-->
+        <section class="newsletter"></section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer"></footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assests/js/main.js"></script>
+
+</body>
+
+</html>
